@@ -1,0 +1,33 @@
+*{
+    background-color: rgb(143, 136, 136);
+}
+.dabb{
+    height:200px;
+    width:500px;
+    background-color: rgb(84, 88, 87);
+    display:flex;
+    justify-content: space-around;
+    margin-left:500px;
+    align-items: center;
+    margin-top:200px;
+    border-radius: 10px;
+    box-shadow: grey;
+}
+button{
+    height:100px;
+    width: 100px;
+    font-size:2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    border:1px solid rgb(83, 81, 81);
+    background-color: black;
+    color:white;
+    border-radius: 50px;
+
+}
+h1{
+    color:rgb(24, 164, 224);
+    font-family: sans-serif;
+    font-size:3.0rem;
+    background-color: rgb(84, 88, 87);
+
+}

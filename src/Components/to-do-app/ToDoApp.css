@@ -1,0 +1,99 @@
+.to-do-list{
+    font-family:'Segoe UI', sans-serif;
+    text-align:center;
+    background-color:rgb(33, 37, 35);
+    margin:30px;
+    /* margin-bottom:20px; */
+    padding:30px;
+    border-radius:9px;
+    /* width:800px; */
+    height:100vh; 
+    /* margin-left:470px; */
+
+}
+.to-do-list li{
+    width:500px;
+    margin-left:420px;
+}
+h1{
+    font-size: 4rem;
+    color:aliceblue;
+
+}
+button{
+    font-size: 1.7rem;
+    font-weight:400;
+    color:white;
+    border-radius:6px;
+    cursor: pointer;
+    border:none;
+}
+.add-btn{
+    
+    background-color:rgb(21, 247, 0);
+    padding:6px;
+    padding-bottom:10px;
+    padding-top:8px;
+}
+.add-btn:hover{
+    background-color:rgb(5, 148, 0); 
+    
+    /* cursor: pointer; */
+}
+.delete-btn{
+    background-color:rgb(255, 12, 12);
+
+     
+}
+.delete-btn:hover{
+    background-color:rgb(176, 1, 1);
+    /* cursor: pointer; */
+}
+.move-btn{
+    background-color:rgb(16, 186, 248);
+
+}
+.move-btn:hover{
+    background-color:rgb(0, 93, 174); 
+
+    /* cursor: pointer; */
+}
+input[type="text"] {
+    font-size: 1.6rem;
+    padding:6px;
+    padding-bottom:11px;
+    padding-top:12px;
+    border:2px solid grey;
+    border-radius:6px;
+    border:none;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+ol{
+    padding:0;
+    /* text-shadow: 2px 2px 4px #000000; */
+}
+li{
+    padding:15px;
+    margin-bottom:10px;
+    background-color:beige;
+    border-radius:10px;
+    box-shadow: 2px 2px 4px #000000;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:1.5rem;
+    font-weight:1000;
+    font-family: 'Courier New', Courier, monospace;
+    /* width:500px;
+    margin-left:400px; */
+
+}
+.text{
+    flex:1;
+}
+.delete-btn,.move-btn{
+    padding:8px 12px;
+    margin-left:5px;
+    font-size:1.4rem;
+}

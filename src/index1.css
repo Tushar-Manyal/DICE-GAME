@@ -1,0 +1,11 @@
+.pehla{
+    height:200px;
+    width:300px;
+    border:2px solid rgb(207, 204, 204);
+    box-shadow: 5px 10px 18px #888888;
+    padding-left:10px;
+    font-family: monospace;
+}
+.naa {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,156 @@
+*{
+    font-family:Poppins;
+    /* height:100%; */
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+img{
+    height:120px;
+    width:120px;
+    padding-left:60px;
+}
+.shoe-nav button{
+    height:30px;
+    width:80px;
+    /* padding-right: 60px; */
+    /* text-align: center; */
+    margin:30px;
+    margin-top:20px;
+    border:none ;
+    background-color: rgb(223, 50, 19);
+    color:azure;
+    border-radius:5px;
+    
+}
+.shoe-nav{
+    display:flex;
+    justify-content: space-between;
+    height:60px;
+    width:100%;
+    
+}
+ul{
+    display:flex ;
+    /* justify-content:space-evenly; */
+    gap:90px;
+    list-style: none;
+    font-size:15px;
+    font-weight:450;
+    text-transform: uppercase;
+}
+.main-outer-box{
+    height:613px;
+    width:1100px;
+    /* background-color: antiquewhite; */
+    display:flex;
+    justify-content: center;
+    /* gap:20px; */
+    /* align-items: center; */
+    margin-left:210px;
+}
+.main-outer1{
+    height:613px;
+    width:550px;
+    font-size:50px;
+    /* background-color: aliceblue; */
+    /* padding:80px; */
+}
+.main-outer11{
+    height:390px;
+    /* background-color:aqua; */
+    margin-top:30px;
+    padding-top:5px;
+    text-align:justify;
+}
+.main-outer11 h1{
+    margin-top:1px;
+    gap:10px;
+    line-height: 1.0;
+    /* padding-top:5px; */
+}
+.main-outer11 p{
+    font-size:10px;
+    /* margin-bottom:30px; */
+    padding-bottom:200px;
+}
+
+
+.main-outer2{
+    width:550px;
+    /* font-size:40px; */
+    /* background-color: aliceblue; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-outer2 img{
+    height:500px;
+    width:800px;
+    display:flex;
+    justify-content: center;
+    text-shadow: 2px 2px 4px #000000;
+    /* filter:drop-shadow(2px 2px 4px #000000); */
+    filter:drop-shadow(20px 20px 15px rgba(0,0,0,0.5));
+
+    /* margin-right:80px; */
+    /* padding-right:60px; */
+}
+.chota-div{
+    height:60px;
+    width:550px;
+    /* background-color: rgb(243, 145, 164); */
+    /* margin: 40px; */
+    font-size:10px;
+    margin-bottom: 500px;
+    /* padding-bottom: 100px; */
+
+}
+.chota-div p{
+    margin-bottom: 500px;
+
+}
+.btn-1 button{
+    border:none ;
+    background-color: rgb(223, 50, 19);
+    color:azure;
+    border-radius:2px;
+    margin-bottom:40px;
+    
+}
+.btn-2 button{
+    border:none;
+    background-color:transparent;
+    border-radius:2px;
+    border:1px solid grey;
+}
+.buttons{
+    display:flex;
+    gap:20px;
+    height:60px;
+    /* background-color: rgb(21, 255, 0); */
+}
+
+.buttons button{
+    margin-top:20px;
+}
+.images-logo{
+    height:100px;
+}
+
+.images-logo img{
+    height:40px;
+    width:40px;
+    gap:20px;
+    text-align:end;
+    padding-left:0px;
+}
+.images-logo p{
+    font-size:medium;
+}
+#flipkart{
+    height:32px;
+    width :50px;
+    margin-bottom:6px;
+}
+

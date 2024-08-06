@@ -1,0 +1,68 @@
+*{
+    font-family:Poppins;
+    /* height:100%; */
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.cont {
+    max-width:2000px;
+    display:flex;
+    /* background-color:aqua; */
+    
+}
+.cont-img{
+    margin:40px;
+    margin-right:40px;
+    /* padding-left:20px; */
+    height:600px;
+    width:800px;
+    /* background-color: blue; */
+    margin-left:100px;
+}
+.contain{
+    line-height: 0;
+    /* background-color: aquamarine; */
+    width:500px;
+    display:block;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* margin-left:0px; */
+    
+    
+    
+}
+.contain h1{
+    font-size:65px;
+    font-weight:700;
+    margin-top:350px;
+    display:block;
+    line-break: auto;
+    /* padding-left: 30px; */
+}
+.contain button{
+    height:40px;
+    width:356px;
+    background-color: black;
+    color:rgb(255, 255, 255);
+    border-radius:5px;
+    margin-top:50px;
+    
+    display:block;
+    line-break: auto;
+    border:none;
+    font-size:medium;
+    
+
+    
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+    color:black;
+    border:1px solid black;
+    transition: width 0s, height 0s, background-color 0.1s;
+    cursor:pointer;
+}
+
+
