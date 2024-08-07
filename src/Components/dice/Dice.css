@@ -12,6 +12,7 @@
     
 }
 .cont-img{
+    
     margin:40px;
     margin-right:40px;
     /* padding-left:20px; */
@@ -19,9 +20,17 @@
     width:800px;
     /* background-color: blue; */
     margin-left:100px;
+    overflow: hidden;
+
+}
+.cont-img img{
+    height:95vh;
+    width:45vw;
+    overflow: hidden;
 }
 .contain{
     line-height: 0;
+    width:30vw;
     /* background-color: aquamarine; */
     width:500px;
     display:block;
@@ -34,21 +43,26 @@
     
 }
 .contain h1{
-    font-size:65px;
-    font-weight:700;
+    width:30vw;
+
+    font-size:80px;
+    font-weight:600;
     margin-top:350px;
     display:block;
     line-break: auto;
+    filter: drop-shadow(8px 8px 10px rgb(91, 88, 88));
+
     /* padding-left: 30px; */
 }
 .contain button{
-    height:40px;
-    width:356px;
+    height:6vh;
+    width:28vw;
     background-color: black;
     color:rgb(255, 255, 255);
     border-radius:5px;
-    margin-top:50px;
-    
+    margin-top:70px;
+    filter: drop-shadow(8px 8px 10px rgb(91, 88, 88));
+
     display:block;
     line-break: auto;
     border:none;
